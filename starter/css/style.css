@@ -1,14 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
-
-
-.navigation {
-  padding: 25px;
-  overflow:hidden;
-  text-align: right;
-  background-image: url(/starter/images/02-portfolio-4.jpg);
+:root {
+ background-color: rgb(38, 38, 38);
+ background: linear-gradient(0.25turn, #191a1a, #3c2061, #2c0f54);
+ --border: 3px solid black; 
+  
 }
 
 body {
@@ -16,13 +13,128 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+
 }
+
+.theme {
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
+  border: black solid;
+  border-radius: 15px 15px 15px 15px;
+  margin: 10px;;
+
+}
+#name {
+  
+  text-align: center;
+  padding: 10px;
+
+}
+
+img {
+  border: 2px solid black;
+  position: relative;
+  left: 850px;
+  
+}
+
+.head-nav {
+
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+  transition: margin-right 2s;
+}
+.nav {
+
+  display: flex;
+  width: 50%;
+  align-items: left;
+  justify-content: space-evenly;
+  color: black;
+  border-radius: 10px;
+  
+}
+.nav:hover {
+  background-color: rgb(222, 214, 220);
+}
+
+
+.grid-container {
+
+  display: grid;
+  justify-content:space-evenly;
+  grid-template-columns:repeat(3, 1fr); 
+  grid-template-rows:repeat(2, 300px);
+  grid-gap: 10px;
+  text-align: center;
+  border-radius: 20px;
+  
+  
+  
+
+}
+.card {
+  width: 200px;
+  height: 200px;
+  box-shadow:0 0 20px rgba(255, 255, 255, 0.5) ;
+}
+.History {
+  grid-column: 1 / -1; 
+  grid-row: 2 / 3; 
+  
+  }
+ 
+.Kittens {
+  justify-content:space-between;
+  align-content: center;
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/kittens_in_space.jpg);
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  border: var(--border);
+  border-radius: 20px;
+
+}
+.Laws {
+  justify-content:space-between;
+  align-content: center;
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/things.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  border:var(--border);
+  border-radius: 20px;
+
+}
+.Things {
+  justify-content:space-between;
+  align-content: center;
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/unknown-things.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  border:var(--border);
+  border-radius: 20px;
+
+
+}
+.History {
+  justify-content:space-between;
+  align-content: center;
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/history.webp);
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  border:var(--border);
+  border-radius: 20px;
+}
+
 
 h1,
 h2,
 h3,
 h4,
-h5,
+h5, 
 h6 {
   margin: 0;
 }
