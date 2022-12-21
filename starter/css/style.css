@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+
+
+.navigation {
+  padding: 25px;
+  overflow:hidden;
+  text-align: right;
+  background-image: url(/starter/images/02-portfolio-4.jpg);
+}
+
 body {
   margin: 0;
   padding: 0;
