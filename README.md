@@ -25,6 +25,6 @@ MIT
 
 ## Deplyment link and screenshot
 
-
+URL:  https://19lola89.github.io/personal_portfolio/
 
 <img width="1440" alt="Screenshot 2022-12-29 at 17 36 18" src="https://user-images.githubusercontent.com/86410482/209989399-dfd308c4-c7f7-4d13-aeea-09b48700cb12.png">
