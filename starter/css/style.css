@@ -21,7 +21,7 @@ body {
 
 /* generic seperate section styles */
 .theme {
-  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
+  background-image:url(starter/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
   border: black solid;
   border-radius: 15px 15px 15px 15px;
   margin: 10px;;
