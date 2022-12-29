@@ -180,3 +180,30 @@ img {
   background-color: rgb(222, 214, 220);
 }
 
+@media screen and (max-width:600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+img {
+  width: 70px;
+  border-radius: 70%;
+}
+}
+   
+@media (max-width: 700px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(2, 200px);
+  }
+}
+
+
