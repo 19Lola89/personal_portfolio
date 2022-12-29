@@ -42,7 +42,7 @@ body {
 
 
 }
-/* Profile picture */
+/* Profile picture style*/
 img {
   border: 2px solid black;
   position: absolute;
@@ -179,6 +179,8 @@ img {
 .details:hover {
   background-color: rgb(222, 214, 220);
 }
+
+/* media queries for the whole page */
 
 @media screen and (max-width:600px) {
   body {
