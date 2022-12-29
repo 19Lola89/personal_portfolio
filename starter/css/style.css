@@ -1,3 +1,6 @@
+
+/* whole page style */
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +19,7 @@ body {
 
 }
 
+/* generic seperate section styles */
 .theme {
   background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
   border: black solid;
@@ -24,19 +28,21 @@ body {
 
 }
 
+/* nav bar and header */
+
 #header {
-  margin: 10px;
-  padding-bottom: 10px;
-  padding-top: 3%;
+  margin: 5px;
+  padding-bottom: 5px;
+  
 }
 #name {
   
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 
 
 }
-
+/* Profile picture */
 img {
   border: 2px solid black;
   position: absolute;
@@ -50,7 +56,6 @@ img {
 .head-nav {
 
   display: flex;
-  flex-direction: row;
   margin: 0px 5%;
   transition: margin-right 2s;
 }
@@ -58,7 +63,6 @@ img {
 
   display: flex;
   width: 50%;
-  align-items: left;
   justify-content: space-evenly;
   color: black;
   border-radius: 10px;
@@ -68,6 +72,7 @@ img {
   background-color: rgb(222, 214, 220);
 }
 
+/*project grid container properties */
 
 .grid-container {
 
@@ -81,25 +86,28 @@ img {
 
 }
 
-.History {
+
+.project4 {
   grid-column: 1 / -1; 
   grid-row: 2 / 3; 
   
   }
 
-  .card {
+ .card {
     background-color: #2c0f54;
     transition: background-color 0.2s;
+    transition: transform 0.2s;
   }
  
   .card:hover {
     background-color: #20613e;
+    transform:scale(1.2);
 
   }
-.Kittens {
+ .project1 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/kittens_in_space.jpg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-2.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -110,10 +118,10 @@ img {
 }
 
 
-.Laws {
+.project2 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/things.jpeg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-3.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -122,7 +130,7 @@ img {
   box-shadow: 0 0 10px 5px rgba(135, 206, 235, 0.5);
 
 }
-.Things {
+.project3 {
   justify-content:space-between;
   align-content: center;
   background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/unknown-things.jpeg);
@@ -135,10 +143,10 @@ img {
 
 
 }
-.History {
+.project4 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/history.webp);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-4.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -147,6 +155,8 @@ img {
   box-shadow: 0 0 10px 5px rgba(135, 206, 235, 0.5);
 }
 
+/* inner card content style */
+
 .card-content {
   display: flex;
   flex-wrap: wrap;
@@ -154,19 +164,19 @@ img {
   align-items:center;
   color: black;
   padding: 40px;
-
   
 }
 
-h1,
-h2,
-h3,
-h4,
-h5, 
-h6 {
-  margin: 10px;
+/* footer and contact details section style */
+
+.container {
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+
 }
 
-p {
-  margin: 10px;
+.details:hover {
+  background-color: rgb(222, 214, 220);
 }
+
