@@ -21,7 +21,7 @@ body {
 
 /* generic seperate section styles */
 .theme {
-  background-image:url(/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/hand-painted-watercolor-pastel-sky-background_23-2148902772.webp);
   border: black solid;
   border-radius: 15px 15px 15px 15px;
   margin: 10px;;
@@ -107,7 +107,7 @@ img {
  .project1 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(images/02-portfolio-2.jpg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-2.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -121,7 +121,7 @@ img {
 .project2 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(images/02-portfolio-3.jpg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-3.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -133,7 +133,7 @@ img {
 .project3 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(/starter/images/unknown-things.jpeg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/unknown-things.jpeg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -146,7 +146,7 @@ img {
 .project4 {
   justify-content:space-between;
   align-content: center;
-  background-image:url(/starter/images/02-portfolio-4.jpg);
+  background-image:url(/Users/lolakasimova/bootcamp/personal_portfolio/starter/images/02-portfolio-4.jpg);
   background-size: cover;
   background-position: center;
   color: whitesmoke;
